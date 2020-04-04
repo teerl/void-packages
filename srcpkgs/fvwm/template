@@ -3,6 +3,7 @@ pkgname=fvwm
 version=2.6.9
 revision=1
 build_style=gnu-configure
+configure_args="--enable-mandoc"
 hostmakedepends="libxslt pkg-config python"
 makedepends="fribidi-devel libXcursor-devel libXft-devel libXinerama-devel
  libXpm-devel libXt-devel librsvg-devel perl readline-devel"
